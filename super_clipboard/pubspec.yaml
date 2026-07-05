@@ -14,7 +14,11 @@ dependencies:
     sdk: flutter
   collection: ^1.16.0
   meta: ^1.7.0
-  super_native_extensions: ^0.9.1
+  super_native_extensions:
+    git:
+      url: https://github.com/yuanhoujun/super_native_extensions.git
+      ref: main
+      path: super_native_extensions
 dev_dependencies:
   flutter_test:
     sdk: flutter
